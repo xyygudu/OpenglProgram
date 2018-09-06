@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/7/10 18:54:38。
+     1>项目“E:\vscode\MFCSkyBox测试版\MFCSkyBox\MFCSkyBox.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\MFCSkyBox.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\MFCSkyBox.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt House.cpp MainFrm.cpp MFCSkyBox.cpp MFCSkyBoxDoc.cpp MFCSkyBoxView.cpp Plane.cpp Sky.cpp Terrain.cpp water.cpp
+         House.cpp
+     1>House.cpp(54): error C2664: “AUX_RGBImageRec *auxDIBImageLoadW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         MainFrm.cpp
+         MFCSkyBox.cpp
+         MFCSkyBoxDoc.cpp
+         MFCSkyBoxView.cpp
+     1>MFCSkyBoxView.cpp(53): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>MFCSkyBoxView.cpp(531): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>MFCSkyBoxView.cpp(553): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+         Plane.cpp
+     1>Plane.cpp(54): error C2664: “AUX_RGBImageRec *auxDIBImageLoadW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         Sky.cpp
+     1>Sky.cpp(56): error C2664: “AUX_RGBImageRec *auxDIBImageLoadW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         Terrain.cpp
+     1>Terrain.cpp(24): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [47]”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Terrain.cpp(53): error C2664: “AUX_RGBImageRec *auxDIBImageLoadW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         water.cpp
+     1>water.cpp(56): error C2664: “AUX_RGBImageRec *auxDIBImageLoadW(LPCWSTR)”: 无法将参数 1 从“char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>已完成生成项目“E:\vscode\MFCSkyBox测试版\MFCSkyBox\MFCSkyBox.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.05

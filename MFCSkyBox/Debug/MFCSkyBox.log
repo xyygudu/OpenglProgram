@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/8/26 21:56:42。
+     1>项目“E:\vscode\MFCSkyBox测试版\MFCSkyBox\MFCSkyBox.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCSkyBox.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MFCSkyBoxView.cpp
+         MFCSkyBoxView.cpp
+     1>e:\vscode\mfcskybox测试版\mfcskybox\mfcskyboxview.cpp(53): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>e:\vscode\mfcskybox测试版\mfcskybox\mfcskyboxview.cpp(531): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+     1>e:\vscode\mfcskybox测试版\mfcskybox\mfcskyboxview.cpp(553): warning C4553: “==”: 运算符不起任何作用；是否是有意使用“=”的?
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vscode\MFCSkyBox测试版\Debug\MFCSkyBox.exe" /INCREMENTAL /NOLOGO OpenGL32.lib GLu32.lib GLaux.lib opencv_objdetect2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_nonfree2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_videostab2411d.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:D:\vs2013\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"E:\vscode\MFCSkyBox测试版\Debug\MFCSkyBox.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vscode\MFCSkyBox测试版\Debug\MFCSkyBox.lib" /MACHINE:X86 Debug\MFCSkyBox.res
+         Debug\House.obj
+         Debug\MainFrm.obj
+         Debug\MFCSkyBox.obj
+         Debug\MFCSkyBoxDoc.obj
+         Debug\MFCSkyBoxView.obj
+         Debug\Plane.obj
+         Debug\Sky.obj
+         Debug\stdafx.obj
+         Debug\Terrain.obj
+         Debug\water.obj
+         MFCSkyBox.vcxproj -> E:\vscode\MFCSkyBox测试版\Debug\MFCSkyBox.exe
+     1>已完成生成项目“E:\vscode\MFCSkyBox测试版\MFCSkyBox\MFCSkyBox.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.80
